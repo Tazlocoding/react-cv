@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fredoka+One&family=Josefin+Sans:wght@100&display=swap");
+
+$font-1: 'Fredoka', cursive;
+$font-2: 'Bree', serif;
+$font-3: 'Josefin Sans', serif;
+
+
+$white: #ddd;
+$black: #333;
+$primary: rgba(54, 56, 44, 1);
+$color1: rgba(191, 78, 48, 1);
+$color2: rgba(254, 96, 0, 1);
+$color3: rgba(198, 204, 178, 0.75);
+$color4: rgba(132, 148, 131, 1);
+$color5: rgba(192, 133, 82, 1);
+
+$borderRadius: 25px;
+$shadow: 0 1px 3px #333;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 1rem auto;
+  max-width: 1200px;
+  font-family: $font-1;
+  color: $black;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
+}
+a:visited {
+  color:$black;
+}
+.home, .knowledges, .portfolio, .contact {
+  display: flex;
+
+  @media screen and (max-width: 850px){
+    display: block !important;
+  }
+}
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+  margin-left: .4rem;
+
+  @media screen and (max-width: 850px){
+    margin-left: 0 !important;
+  }
+}
