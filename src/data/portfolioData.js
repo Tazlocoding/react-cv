@@ -5,7 +5,7 @@ export const portfolioData = [
     languages: ['javascript','css'],
     languagesIcons: ['fab fa-js','fab fa-css3-alt'],
     source: 'https://github.com/Tazlocoding/projet-perso',
-    info: 'Réalisation d\'un site avec comme théme l\'architecture. Le site devait comporter du Html5/Css3 et du Javascript avec une vidéo incorporée.',
+    info: 'Cas d\'école lors de ma formation. La demande : réaliser un site internet avec le thème "architecture", il devait comporter du HTML5/CSS3 ainsi que du JavaScript avec vidéo incorporée.',
     picture: './media/projet.jpg'
   },
   {
@@ -14,7 +14,7 @@ export const portfolioData = [
     languages: ['javascript','react', 'css'],
     languagesIcons: ['fab fa-js','fab fa-react'],
     source: 'https://github.com/Tazlocoding/react-cv',
-    info: "Réalisation d'un portfolio en reactjs pour un début de présentation de projet.",
+    info: "A la suite de ma formation, j'ai crée mon portfolio en react.js. Je vous présente mes travaux d'intégrateur junior. Pendant et après la formation.  ",
     picture: './media/portfolio.jpg'
   },
   {
@@ -23,7 +23,7 @@ export const portfolioData = [
     languages: ['javascript','php','css'],
     languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
     source: 'https://github.com/Tazlocoding/KMB-AUTO',
-    info: "Lors du stage de Technicien Intégrateur Web réalisation d'un site avec wordpress et création d'un théme en php",
+    info: " Soutenance de formation Technicien Intergrateur Web au sein de Buroscope, j'ai eu l'opportunité de réaliser un site sous WordPress en PHP avec création d'un thème enfant.",
     picture: './media/stage.jpg'
   },
   {
@@ -32,7 +32,7 @@ export const portfolioData = [
     languages: ['css'],
     languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
     source: 'https://github.com/Tazlocoding/Projet_ohmyfood',
-    info: "Projet OpenClassroom utilisation de sass et du pattern 7-1",
+    info: " Dans le cadre d'une formation à distance (OpenClassrooms), j'ai passé plusieurs ECF, dont celui-ci. La demande : création  pour un restaurant fictif d'un site internet qu'il soit responsive avec utilisation de SASS et du Pattern 7-1.",
     picture: './media/ohmyfood.jpg'
   },
   {
@@ -41,7 +41,7 @@ export const portfolioData = [
     languages: ['Html','css'],
     languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
     source: 'https://github.com/Tazlocoding/test-moto',
-    info: "Réalisation d'une maquette html/css",
+    info: "Projet de formation. La demande : réaliser une maquette html/css dans les conditions d'un ECF, créer en HTML5 CSS3",
     picture: './media/moto.jpg'
   },
   {
@@ -50,7 +50,7 @@ export const portfolioData = [
     languages: ['html', 'css', 'php'],
     languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
     source: 'https://github.com/Tazlocoding/archi_v9',
-    info: "Réalisation en formation d'un cms en php et base de donnée phpmysql.",
+    info: " Apprentisage du PHP lors de ma formation de Technicien Intergrateur Web. La demande : réaliser un cms en php et base de données MySQL.",
     picture: './media/php.jpg'
   },
 ]
